@@ -1,0 +1,44 @@
+/*get random beer container*/
+.beer_box {
+    margin: 5% 0 0 0;
+    padding: 0 0 20px 0 ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: royalblue; /*test*/
+}
+/*beer header name*/
+.beernameH1 {
+    color:white;
+}
+
+/*size of the beers*/
+.bildbeer {
+    border: none;
+    width:120px ;
+    height: 250px;
+}
+
+/* rean more link text*/
+.readmore {
+    font-weight:bold;
+    color:white;
+}
+
+/*css for the get one random beer button*/
+.beer_button {
+    height: 35px;
+    color: #eee3dd;
+    background-color: #004483 ;
+    border: 5px ;
+    border-color:#04e2ff ;
+    border-radius: 15px;
+}
+.beer_button:active {
+    transform:scale(0.75);
+}
+.beer_button:focus {
+    outline:none;
+}
+
